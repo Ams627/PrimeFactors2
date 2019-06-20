@@ -1,9 +1,13 @@
 # Prime factors problem
 
 Sort a list of integers by two factors
+
 * first by the number of prime factors each integer has
 * then by the integer itself
 
 There is at least one integer in the list and at most 10000.
 Integers in the list range between 2 and 10000
+
+We use a https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes[Sieve of Eratosthenes] but instead of simply marking numbers
+as non-prime, we mark them with their lowest prime factor.
 
